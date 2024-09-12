@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.qr-container {
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    box-shadow: 0 0 22px 0 aqua;
+    backdrop-filter: blur(10px);
+}
+
+#qr-input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(198, 197, 197, 0.2);
+    color: white;
+}
+
+#qr-button, #qr-download {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, bisque, darkorange);
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+#qr-button:hover, #qr-download:hover {
+    background: linear-gradient(135deg, aqua, bisque);
+}
+
+#qr-button:active, #qr-download:active {
+    transform: scale(0.95);
+}
+
+#qr-img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+#qr-share {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, bisque,aqua);
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+#qr-share:hover {
+    background: linear-gradient(135deg, aqua, bisque);
+}
+
+#qr-share:active {
+    transform: scale(0.95);
+}
+
