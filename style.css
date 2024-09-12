@@ -71,7 +71,7 @@ h2 {
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(135deg, bisque,aqua);
+    background: linear-gradient(135deg, bisque,darkorange);
     color: black;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
